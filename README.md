@@ -2,11 +2,11 @@
 
 # Responsive Product Page
 
-![Richard Feynman](https://res.cloudinary.com/mpauldesigns/image/upload/v1540421885/Feynman_1.jpg)
+![Redwood Forest](https://res.cloudinary.com/mpauldesigns/image/upload/v1523202345/_DSC0060.jpg)
 
->“Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough.”
+>“When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.”
 
->― Richard P. Feynman
+>― Ansel Adams
 
 ---
 
