@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D4D4D4;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visted {
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ------ header stuff --------------------------*/
+
+header img {
+    display: flex;
+    justify-content: center;
+    padding: 2em 1em 0em 1em;
+    max-width: 90%;
+    min-width: 225px;
+    margin: auto;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex-grid;
+    padding: 0em .5em .5em .5em;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    border-color: white;
+
+}
+
+header li {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+/* END HEADER --------------------------------------------------- */
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    max-width: 90%;
+    align-self: flex-start;
+    min-width: 200px;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    border-color: white;
+}
+
+.main div {
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    border-color: white;
+    margin: auto;
+    width: 90%;
+}
+
+.container img {
+    display: flex;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    max-width: 90%;
+    align-self: flex-start;
+    min-width: 200px;
+
+}
+
+.main img {
+    width: 100%;
+    align-self: flex-start;
+    padding: 1em;
+}
+
+#exhibitions video {
+    margin: auto;
+    width: 100%;
+    padding: 1em;
+}
+
+#artist img {
+    max-width: 350px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    width: 100%;
+    background-color: #D4D4D4;
+}
+
+@media only screen and (min-width: 480px) {
+
+    body {
+        background-color: lightblue;
+        background-color: #D4D4D4;
+    }
+
+    #header-img {
+        max-width: 70%;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 1em;
+        /* padding:.5em 1em .5em 1em; */
+        /* margin: 0em 1em 0em 1em; */
+        border-bottom-style: solid;
+        border-width: 1.5px;
+        border-color: white;
+    }
+
+    header li {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 0px;
+        flex-grow: .5;
+    }
+
+    header img {
+        padding-bottom: 5px;
+    }
+
+    #logo-container {
+        margin: 1em auto;
+        width: 80%;
+    }
+
+
+    form {
+        margin: auto;
+        padding: 1em;
+    }
+
+    @media only screen and (min-width: 690px) {
+
+        body {
+            /*background-color: lightgreen;*/
+            background-color: #D4D4D4;
+        }
+
+
+        header ul {
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+
+        .logo {
+            width: 75%;
+        }
+
+        #header-img {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        /* nav li {
+  flex-justify: space-between;
+
+  } */
+
+    }}
