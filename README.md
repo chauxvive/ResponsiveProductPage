@@ -28,7 +28,7 @@ These are all actually my photos. I've adored photography ever since I started u
 
 ### Technologies Used:
 
-HTML, CSS, JavaScript
+HTML5, CSS3, JavaScript
 
 ### Future upgrades:
 
